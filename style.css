@@ -1,0 +1,129 @@
+/*******SETUP********/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+div {
+    display: flex;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+
+/********HEADER**********/
+header {
+    flex-basis: 100%;
+    margin-bottom: 15px;
+}
+
+#head {
+    background-color:#ffd800;
+    border: 1px solid #000;
+    justify-content: flex-start;
+}
+
+#head h2 {
+    padding:10px;
+    font-weight: 300;
+}
+
+
+/***********ASIDE*********/
+aside {
+    display: flex;
+    flex-basis: 30%;
+    margin-right: 15px;
+}
+
+#ad {
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #f82df8;
+    height:500px;
+    margin-left: 15%;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#ad h4 {
+    align-self: center;
+    flex-basis: 100%;
+}
+
+.ad {
+    border:1px solid #000;
+    height:200px;
+    width: 300px;
+    background-color: #fff;
+}
+
+/************MAIN**********/
+main {
+    flex-basis: 60%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#title {
+    flex-basis: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#7bff7b;
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    
+    padding: 20px;
+}
+
+#title h1 {
+    flex-basis: 100%;
+}
+
+aticle { display: flex; }
+
+main article {
+    flex-basis: 30%;
+    border: 1px solid #000;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #6565fd;
+    margin-bottom: 20px;
+}
+
+main article h6 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*******FOOTER*********/
+footer {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+
+#foot {
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #bbbbff;
+    padding: 15px;
+}
