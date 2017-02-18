@@ -117,3 +117,8 @@ footer {
         border-radius: 0;
         border-top: 1px solid #000;
     }
+    
+    main {
+        margin-right:0;
+    }
+}
