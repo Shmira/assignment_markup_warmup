@@ -96,7 +96,6 @@ footer {
 
 .foot {
     border: 1px solid #000;
-<<<<<<< HEAD
     border-radius: 30px;
     background-color: deepskyblue;
     text-align: center;
@@ -118,23 +117,3 @@ footer {
         border-radius: 0;
         border-top: 1px solid #000;
     }
-    
-    main {
-        margin-right:0;
-=======
-    border-radius: 20px;
-    background-color: #bbbbff;
-    padding: 15px;
-}
-
-/*******QUERIES********/
-
-@media only screen and (max-width: 1200px) {
-    .articles {
-        flex-wrap:wrap;
-    }
-    article {
-        flex-shrink: 1;
->>>>>>> 7827ae8e18070195bb707c88a8cea2cd53c02498
-    }
-}
