@@ -127,3 +127,14 @@ footer {
     background-color: #bbbbff;
     padding: 15px;
 }
+
+/*******QUERIES********/
+
+@media only screen and (max-width: 1200px) {
+    .articles {
+        flex-wrap:wrap;
+    }
+    article {
+        flex-shrink: 1;
+    }
+}
